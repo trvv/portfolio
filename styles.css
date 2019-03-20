@@ -1,0 +1,22 @@
+body {
+    right: 50%;
+    bottom: 50%;
+    transform: translate(50%, 50%);
+    position: absolute;
+    font-family: 'Merriweather', serif;
+}
+
+a {
+    text-decoration: none;
+    color: #444;
+}
+
+a:visisted {
+    text-decoration: none;
+    color: #444;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #000;
+}
