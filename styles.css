@@ -8,12 +8,12 @@ body {
 
 a {
     text-decoration: none;
-    color: #444;
+    color: #666;
 }
 
 a:visisted {
     text-decoration: none;
-    color: #444;
+    color: #666;
 }
 
 a:hover {
