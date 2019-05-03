@@ -3,7 +3,7 @@ body {
     bottom: 50%;
     transform: translate(50%, 50%);
     position: absolute;
-    font-family: 'Merriweather', serif;
+    font-family: 'Lato', serif;
 }
 
 a {
