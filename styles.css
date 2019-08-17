@@ -1,13 +1,13 @@
 body {
-    right: 50%;
-    bottom: 50%;
-    transform: translate(50%, 50%);
-    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
     font-family: 'Lato', serif;
     font-size: 1.2em;
-    text-align: center;
-    animation: fadein 2s;
-    -webkit-animation: fadein 2s;
+    
+    animation: fadein 1s;
+    -webkit-animation: fadein 1s;
 }
 
 @keyframes fadein {
