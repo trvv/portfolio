@@ -4,6 +4,7 @@ body {
     transform: translate(50%, 50%);
     position: absolute;
     font-family: 'Lato', serif;
+    font-size: 1.2em;
     animation: fadein 2s;
     -webkit-animation: fadein 2s;
 }
