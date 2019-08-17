@@ -5,6 +5,7 @@ body {
     position: absolute;
     font-family: 'Lato', serif;
     font-size: 1.2em;
+    text-align: center;
     animation: fadein 2s;
     -webkit-animation: fadein 2s;
 }
