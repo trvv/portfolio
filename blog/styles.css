@@ -1,8 +1,5 @@
 body {
-    right: 50%;
-    bottom: 50%;
-    transform: translate(50%, 50%);
-    position: absolute;
+    padding: 10%;
     font-family: 'Lato', serif;
     font-size: 1.2em;    
     animation: fadein 1s;
@@ -12,10 +9,6 @@ body {
 .align-right {
     float: right;
     padding-left: 30px;
-}
-
-.correct-width {
-    width: 100%;
 }
 
 @keyframes fadein {
