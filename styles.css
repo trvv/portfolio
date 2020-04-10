@@ -1,3 +1,7 @@
+html {
+    background-color: #eeeeee;
+}
+
 body {
     right: 50%;
     bottom: 50%;
@@ -6,6 +10,7 @@ body {
     font-family: 'Lato', serif;
     font-size: 1.2em;    
     animation: fadein 1s;
+    line-height: 1.4;
     -webkit-animation: fadein 1s;
 }
 
@@ -29,16 +34,25 @@ p {
 }
 
 a {
+    font-weight: bold;
     text-decoration: none;
-    color: #666;
+    color: #66a;
 }
 
 a:visisted {
+    font-weight: bold;
     text-decoration: none;
-    color: #666;
+    color: #66a;
 }
 
 a:hover {
+    font-weight: bold;
     text-decoration: underline;
-    color: #000;
+    color: #668;
+}
+
+.pre {
+    color: #eeeeee;
+    background-color: #000000;
+    border-radius: 1.2em;
 }
