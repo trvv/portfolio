@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>name generator</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/png" href="https://github.com/trvv.png">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato&display=swap">
+        <link rel="stylesheet" type="text/css" href="/styles.css">
+        <script src="https://zeptojs.com/zepto.min.js"></script>
+        <script>
+            var project = []
+            var operation = []
+
+            $(document).on("click", "#project", function() {
+                $("#project").html("Project " + project[Math.floor(Math.random() * project.length)]);
+            })
+
+            $(document).on("click", "#operation", function() {
+                $("#operation").html("Operation " + operation[Math.floor(Math.random() * operation.length)]);
+            })
+
+            $(document).ready(function() {
+                $.get("places.txt", function(data) {
+                    project = data.split(/\r?\n/)
+                })
+
+                $.get("nouns.txt", function(data) {
+                    operation = data.split(/\r?\n/)
+                })
+            })
+        </script>
+    </head>
+    <body>
+        <h1>Names</h1>
+        <h2><a style="text-transform: capitalize" id="project" href="#">Generate a Project Name</a></h2>
+        <h2><a style="text-transform: capitalize" id="operation" href="#">Generate an Operation Name</a></h2>
+    </body>
+</html>
