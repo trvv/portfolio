@@ -1,5 +1,6 @@
 html {
-    background-color: #eeeeee;
+    background-color: #000000;
+    color: #aaa;
 }
 
 body {
@@ -7,7 +8,7 @@ body {
     bottom: 50%;
     transform: translate(50%, 50%);
     position: absolute;
-    font-family: 'Lato', serif;
+    font-family: 'Consolas', serif;
     font-size: 1.2em;    
     animation: fadein 1s;
     line-height: 1.4;
@@ -36,23 +37,17 @@ p {
 a {
     font-weight: bold;
     text-decoration: none;
-    color: #66a;
+    color: #eee;
 }
 
 a:visisted {
     font-weight: bold;
     text-decoration: none;
-    color: #66a;
+    color: #ccc;
 }
 
 a:hover {
     font-weight: bold;
     text-decoration: underline;
-    color: #668;
-}
-
-.pre {
-    color: #eeeeee;
-    background-color: #000000;
-    border-radius: 1.2em;
+    color: #ccc;
 }
